@@ -4,7 +4,8 @@ export function Topbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-40 flex h-14 items-center bg-[#0a0a0a] px-4 text-white">
       <div className="flex w-[260px] items-center gap-2">
-        <span className="flex h-7 w-7 items-center justify-center rounded-md bg-[#2f9e5f] text-[15px] font-black italic">H</span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/logo.png" alt="HUBshop logo" className="h-7 w-7 rounded-md" />
         <span className="text-[17px] font-bold italic tracking-tight">HUBshop</span>
       </div>
       <div className="mx-auto flex h-9 w-full max-w-[640px] items-center gap-2 rounded-[10px] border border-[#2e2e2e] bg-[#1a1a1a] px-3 text-[13px] text-[#c8c8c8]">
